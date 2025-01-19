@@ -28,8 +28,8 @@ for i in following:
         unfollow.append(i)
 
 print("\n List of users who aren't follback:")
-
+no = 1
 for i in following:
     if i not in unfollow:
         print(f"{no}. {i}")
-        
+        no += 1
